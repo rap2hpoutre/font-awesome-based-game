@@ -1,0 +1,47 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.outer {
+  display: table;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.middle {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.inner {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.fa-home {
+  font-size: 2em;
+}
+
+.fa {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.town {
+  font-size: 24px;
+  text-align: center;
+  border-bottom: black solid 1px;
+}
+
+.fa-empty {
+  width: 24px;
+}
+
+.info {
+  margin-top: 5px;
+  text-align: center;
+}
+

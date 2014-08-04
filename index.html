@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html ng-app="fontBased">
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.17/angular.min.js"></script>
+  <script src="fontBased.js"></script>
+</head>
+<body>
+  <div ng-controller="FontBasedMainController">
+    <div class="outer">
+      <div class="middle">
+        <div class="inner">
+          <div class="town">
+            <i ng-repeat="element in townElements" class="fa fa-{{element.icon}}" ng-click="setInfo(element.icon);">
+            </i>
+          </div>
+          <div class="info">
+            {{info}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
